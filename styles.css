@@ -1,21 +1,50 @@
 body {
-    background: rgb(224, 198, 249);
+    background: #f6f2f6;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .assignment {
     display: flex;
     padding: 10px;
-    background: lightgray;
+    background: #E1D5D9;
     margin: 10px;
+    border-radius: 20px;
 }
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    margin-right: 15px;
+    border: 3px solid #1C252C;
+    border-radius: 15px;
+}
+.assignment img:hover {
+    border: 3px solid #F6F2F6;
 }
 
 h1 {
-    color: rgb(45, 45, 45);
+    color: #58545B;
     text-align: center;
 }
+
+a {
+    color: #1C252C;
+    text-decoration: none;
+    
+}
+.ass-details a:hover {
+    color: #F6F2F6;
+    text-shadow: 1px 1px 5px #1C252C,
+                -1px -1px 2px rgba(255, 255, 255, 0.80);
+
+    box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6),
+                1px 1px 5px rgba(0, 0, 0, 0.3),
+                inset -2px -2px 5px rgba(255, 255, 255, 1),
+                inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/*  #F6F2F6 - Light Color
+    #E1D5D9
+    #B7A7AE
+    #58545B
+    #1C252C
